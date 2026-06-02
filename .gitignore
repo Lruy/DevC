@@ -1,0 +1,13 @@
+# IDE
+.idea/
+.vscode/
+
+# Build outputs
+*.exe
+*.out
+*.o
+*.obj
+
+# Compiled Python
+__pycache__/
+*.pyc
