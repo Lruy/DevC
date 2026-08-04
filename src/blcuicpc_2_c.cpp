@@ -31,6 +31,7 @@ int main() {
         nx=x<<1;
         if(nx<=200000 && dist[nx]==-1){
             dist[nx]=dist[x]+1;
+            q.push(nx);
         }
     }
     return 0;
